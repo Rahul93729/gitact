@@ -1,0 +1,17 @@
+[Error - 3:37:25 PM] Error making request: Command failed with exit code 1: gke-gcloud-auth-plugin
+F0208 15:37:25.708532    1347 cred.go:145] print credential failed with error: Failed to retrieve access token:: failure while executing gcloud, with args [config config-helper --format=json]: exit status 1 (err: ERROR: (gcloud.config.config-helper) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+)
+[Error - 3:37:34 PM] Error making request: The user aborted a request.
+[Error - 3:37:35 PM] Error making request: The user aborted a request.
+[Error - 3:37:35 PM] Error making request: The user aborted a request.

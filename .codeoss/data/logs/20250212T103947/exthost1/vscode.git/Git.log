@@ -1,0 +1,340 @@
+2025-02-12 10:39:56.109 [info] [main] Log level: Info
+2025-02-12 10:39:56.109 [info] [main] Validating found git in: "git"
+2025-02-12 10:39:56.109 [info] [main] Using git "2.43.0" from "git"
+2025-02-12 10:39:56.109 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-12 10:39:56.109 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-12 10:39:56.109 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.120 [info] > git rev-parse --show-toplevel [47ms]
+2025-02-12 10:39:56.127 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-12 10:39:56.144 [info] [Model][openRepository] Opened repository: /home/rahul_chalwadi03/my-proj
+2025-02-12 10:39:56.156 [info] > git config --get commit.template [5ms]
+2025-02-12 10:39:56.157 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-12 10:39:56.157 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.162 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-12 10:39:56.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-12 10:39:56.167 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:39:56.180 [info] > git status -z -uall [8ms]
+2025-02-12 10:39:56.181 [info] > git rev-parse --show-toplevel [16ms]
+2025-02-12 10:39:56.181 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.186 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-12 10:39:56.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-02-12 10:39:56.205 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:39:56.206 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-12 10:39:56.208 [info] > git rev-parse --show-toplevel [23ms]
+2025-02-12 10:39:56.208 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.220 [info] > git config --get commit.template [16ms]
+2025-02-12 10:39:56.221 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-12 10:39:56.221 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.226 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-12 10:39:56.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-12 10:39:56.231 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:39:56.243 [info] > git status -z -uall [8ms]
+2025-02-12 10:39:56.244 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-12 10:39:56.246 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-12 10:39:56.246 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.252 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:39:56.252 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.258 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-12 10:39:56.258 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.263 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:39:56.263 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:56.264 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-12 10:39:56.725 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-12 10:39:56.932 [info] > git show --textconv :app.py [5ms]
+2025-02-12 10:39:56.934 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-proj/app.py [3ms]
+2025-02-12 10:39:59.181 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:39:59.181 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:39:59.187 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-12 10:39:59.187 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:40:14.463 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:40:14.463 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:40:16.156 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-proj/.git/HEAD'
+2025-02-12 10:40:16.169 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-proj/.git/config'
+2025-02-12 10:40:16.185 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-proj/.git/HEAD'
+2025-02-12 10:40:16.211 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-proj/.git/config'
+2025-02-12 10:41:18.199 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:41:18.199 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:41:40.211 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-12 10:41:40.212 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:42:07.252 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:42:07.252 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:42:21.130 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:42:21.130 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:43:13.360 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-12 10:43:13.360 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:45:00.523 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-12 10:45:00.523 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:45:25.155 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-12 10:45:25.155 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:45:55.292 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:45:55.292 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:46:05.736 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:46:05.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:46:21.627 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:46:21.627 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:46:24.320 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:46:24.320 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:46:25.200 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:46:25.200 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:50:40.585 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:50:40.594 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-12 10:50:40.607 [info] [Model][openRepository] Opened repository: /home/rahul_chalwadi03/my-app/yodev1
+2025-02-12 10:50:40.628 [info] > git config --get commit.template [11ms]
+2025-02-12 10:50:40.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-12 10:50:40.629 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:50:40.649 [info] > git status -z -uall [12ms]
+2025-02-12 10:50:40.650 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 10:50:40.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-02-12 10:50:40.675 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:50:40.676 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-12 10:50:40.677 [info] > git config --get commit.template [3ms]
+2025-02-12 10:50:40.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-12 10:50:40.688 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:50:40.705 [info] > git status -z -uall [10ms]
+2025-02-12 10:50:40.706 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 10:50:41.497 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-12 10:51:35.554 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/yodev1/.git/HEAD'
+2025-02-12 10:51:35.569 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/yodev1/.git/config'
+2025-02-12 10:51:35.588 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/yodev1/.git/HEAD'
+2025-02-12 10:51:35.603 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/yodev1/.git/config'
+2025-02-12 10:51:54.925 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-12 10:51:54.936 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-12 10:51:54.942 [info] [Model][openRepository] Opened repository: /home/rahul_chalwadi03/my-app/dev1
+2025-02-12 10:51:54.962 [info] > git config --get commit.template [10ms]
+2025-02-12 10:51:54.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-12 10:51:54.963 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:51:54.981 [info] > git status -z -uall [10ms]
+2025-02-12 10:51:54.982 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 10:51:55.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-02-12 10:51:55.004 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:51:55.005 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-12 10:51:55.006 [info] > git config --get commit.template [3ms]
+2025-02-12 10:51:55.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-12 10:51:55.017 [warning] [Git][getBranch] No such branch: master
+2025-02-12 10:51:55.035 [info] > git status -z -uall [9ms]
+2025-02-12 10:51:55.036 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 10:51:55.839 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-12 10:51:57.459 [info] > git config --get commit.template [10ms]
+2025-02-12 10:51:57.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 10:51:57.469 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/dev1/.git/refs/remotes/origin/main'
+2025-02-12 10:51:57.472 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-02-12 10:51:57.490 [info] > git status -z -uall [10ms]
+2025-02-12 10:51:57.492 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 10:51:57.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 10:51:57.519 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-02-12 10:51:57.519 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-12 10:51:57.532 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2025-02-12 10:51:57.544 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-02-12 10:51:57.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-02-12 10:51:57.565 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2025-02-12 10:51:57.583 [info] > git config --get commit.template [9ms]
+2025-02-12 10:51:57.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 10:51:57.593 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/dev1/.git/refs/remotes/origin/main'
+2025-02-12 10:51:57.595 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-12 10:51:57.614 [info] > git status -z -uall [11ms]
+2025-02-12 10:51:57.616 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 10:51:57.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-02-12 10:51:57.647 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2025-02-12 10:51:57.657 [info] > git config --local branch.main.vscode-merge-base [11ms]
+2025-02-12 10:51:57.666 [info] > git diff --name-status -z --diff-filter=ADMR 98d3224a7eb06a74087f331b931cbc4feac0ace3...refs/remotes/origin/main [10ms]
+2025-02-12 10:51:57.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-02-12 10:51:59.735 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-12 10:52:17.666 [info] > git config --get commit.template [10ms]
+2025-02-12 10:52:17.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 10:52:17.678 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/dev1/.git/refs/remotes/origin/main'
+2025-02-12 10:52:17.680 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-12 10:52:17.698 [info] > git status -z -uall [10ms]
+2025-02-12 10:52:17.700 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 10:55:44.318 [info] > git config --get commit.template [10ms]
+2025-02-12 10:55:44.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 10:55:44.328 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/dev1/.git/refs/remotes/origin/main'
+2025-02-12 10:55:44.330 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-12 10:55:44.350 [info] > git status -z -uall [11ms]
+2025-02-12 10:55:44.351 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-12 10:55:44.991 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-12 10:56:33.431 [info] > git config --get commit.template [9ms]
+2025-02-12 10:56:33.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 10:56:33.441 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/dev1/.git/refs/remotes/origin/main'
+2025-02-12 10:56:33.444 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-12 10:56:33.462 [info] > git status -z -uall [10ms]
+2025-02-12 10:56:33.463 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 10:57:26.796 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:57:26.796 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:57:51.488 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 10:57:51.488 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 10:58:16.916 [info] > git config --get commit.template [11ms]
+2025-02-12 10:58:16.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 10:58:16.925 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rahul_chalwadi03/my-app/dev1/.git/refs/remotes/origin/main'
+2025-02-12 10:58:16.927 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-12 10:58:16.944 [info] > git status -z -uall [9ms]
+2025-02-12 10:58:16.946 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 10:58:16.959 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-02-12 10:58:16.971 [info] > git diff --name-status -z --diff-filter=ADMR 98d3224a7eb06a74087f331b931cbc4feac0ace3...refs/remotes/origin/main [2ms]
+2025-02-12 10:58:29.515 [info] > git config --get commit.template [10ms]
+2025-02-12 10:58:29.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 10:58:29.536 [info] > git status -z -uall [11ms]
+2025-02-12 10:58:29.537 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 10:58:29.551 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-02-12 10:58:29.562 [info] > git diff --name-status -z --diff-filter=ADMR e7a37456284122cdba002aa50af265b10bc7484b...refs/remotes/origin/main [3ms]
+2025-02-12 11:01:42.203 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 11:01:42.203 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 11:01:43.793 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 11:01:43.793 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-12 11:01:46.824 [info] > git show --textconv :cloudbuild.yaml [11ms]
+2025-02-12 11:01:46.826 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/cloudbuild.yaml [3ms]
+2025-02-12 11:01:46.837 [info] > git cat-file -s 5dc2cdae4bf7ecd8e67042db6c19d7c5eb695cd4 [3ms]
+2025-02-12 11:28:25.972 [info] > git config --get commit.template [2ms]
+2025-02-12 11:28:25.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 11:28:26.002 [info] > git status -z -uall [10ms]
+2025-02-12 11:28:26.004 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:28:26.176 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/cloudbuild.yaml [2ms]
+2025-02-12 11:28:26.186 [info] > git cat-file -s 5dc2cdae4bf7ecd8e67042db6c19d7c5eb695cd4 [2ms]
+2025-02-12 11:28:26.288 [info] > git show --textconv :cloudbuild.yaml [2ms]
+2025-02-12 11:33:06.877 [info] > git show --textconv :deployment.yaml [10ms]
+2025-02-12 11:33:06.878 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/deployment.yaml [2ms]
+2025-02-12 11:33:06.888 [info] > git cat-file -s 95d3b283c247376d80f7b152741c6c4a89176074 [2ms]
+2025-02-12 11:33:16.582 [info] > git config --get commit.template [10ms]
+2025-02-12 11:33:16.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 11:33:16.604 [info] > git status -z -uall [11ms]
+2025-02-12 11:33:16.605 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-12 11:33:25.630 [info] > git config --get commit.template [9ms]
+2025-02-12 11:33:25.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 11:33:25.652 [info] > git status -z -uall [10ms]
+2025-02-12 11:33:25.654 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:33:31.634 [info] > git config --get commit.template [9ms]
+2025-02-12 11:33:31.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 11:33:31.655 [info] > git status -z -uall [9ms]
+2025-02-12 11:33:31.657 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:33:36.675 [info] > git config --get commit.template [3ms]
+2025-02-12 11:33:36.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 11:33:36.705 [info] > git status -z -uall [9ms]
+2025-02-12 11:33:36.706 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 11:36:19.259 [info] > git config --get commit.template [9ms]
+2025-02-12 11:36:19.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 11:36:19.279 [info] > git status -z -uall [9ms]
+2025-02-12 11:36:19.281 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:37:09.629 [info] > git show --textconv :service.yaml [9ms]
+2025-02-12 11:37:09.631 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/service.yaml [4ms]
+2025-02-12 11:37:09.642 [info] > git cat-file -s 2c17b5aca2b7bc71e1b9089d93f5a75ae1fa5fa9 [3ms]
+2025-02-12 11:39:06.476 [info] > git show --textconv :app.py [9ms]
+2025-02-12 11:39:06.478 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 11:39:06.488 [info] > git cat-file -s 70c39a272e2b046939e02aa2c554ba0a84e3d0fe [2ms]
+2025-02-12 11:39:15.969 [info] > git config --get commit.template [10ms]
+2025-02-12 11:39:15.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 11:39:15.989 [info] > git status -z -uall [10ms]
+2025-02-12 11:39:15.991 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:39:20.077 [info] > git show --textconv :deployment.yaml [10ms]
+2025-02-12 11:39:20.078 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/deployment.yaml [2ms]
+2025-02-12 11:39:20.089 [info] > git cat-file -s 95d3b283c247376d80f7b152741c6c4a89176074 [2ms]
+2025-02-12 11:39:21.993 [info] > git show --textconv :app.py [9ms]
+2025-02-12 11:39:21.994 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 11:39:22.004 [info] > git cat-file -s 70c39a272e2b046939e02aa2c554ba0a84e3d0fe [2ms]
+2025-02-12 11:40:13.967 [info] > git config --get commit.template [11ms]
+2025-02-12 11:40:13.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-12 11:40:13.986 [info] > git status -z -uall [9ms]
+2025-02-12 11:40:13.988 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:40:14.002 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-02-12 11:40:14.013 [info] > git diff --name-status -z --diff-filter=ADMR e7a37456284122cdba002aa50af265b10bc7484b...refs/remotes/origin/main [2ms]
+2025-02-12 11:40:14.138 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 11:40:14.150 [info] > git cat-file -s 9ccb8ae28aabc22ad674151561b4395bc17a172e [2ms]
+2025-02-12 11:40:14.241 [info] > git show --textconv :app.py [3ms]
+2025-02-12 11:40:15.786 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 11:40:15.797 [info] > git cat-file -s 9ccb8ae28aabc22ad674151561b4395bc17a172e [3ms]
+2025-02-12 11:40:15.901 [info] > git show --textconv :app.py [3ms]
+2025-02-12 11:40:24.922 [info] > git config --get commit.template [9ms]
+2025-02-12 11:40:24.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 11:40:24.945 [info] > git status -z -uall [12ms]
+2025-02-12 11:40:24.945 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 11:40:24.959 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-02-12 11:40:24.970 [info] > git diff --name-status -z --diff-filter=ADMR 1d00554b57d0781978b0b3c5112d106576ce9a16...refs/remotes/origin/main [3ms]
+2025-02-12 11:41:13.839 [info] > git show --textconv :deployment.yaml [10ms]
+2025-02-12 11:41:13.841 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/deployment.yaml [2ms]
+2025-02-12 11:41:13.851 [info] > git cat-file -s e9426246ad1244926cb8491b1eec7879034154c8 [2ms]
+2025-02-12 11:41:15.426 [info] > git show --textconv :app.py [10ms]
+2025-02-12 11:41:15.428 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [3ms]
+2025-02-12 11:41:15.439 [info] > git cat-file -s 9ccb8ae28aabc22ad674151561b4395bc17a172e [2ms]
+2025-02-12 11:41:20.029 [info] > git show --textconv :deployment.yaml [9ms]
+2025-02-12 11:41:20.030 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/deployment.yaml [2ms]
+2025-02-12 11:41:20.040 [info] > git cat-file -s e9426246ad1244926cb8491b1eec7879034154c8 [2ms]
+2025-02-12 11:41:23.724 [info] > git show --textconv :cloudbuild.yaml [10ms]
+2025-02-12 11:41:23.725 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/cloudbuild.yaml [2ms]
+2025-02-12 11:41:23.736 [info] > git cat-file -s 5dc2cdae4bf7ecd8e67042db6c19d7c5eb695cd4 [3ms]
+2025-02-12 11:41:26.893 [info] > git show --textconv :deployment.yaml [9ms]
+2025-02-12 11:41:26.895 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/deployment.yaml [3ms]
+2025-02-12 11:41:26.907 [info] > git cat-file -s e9426246ad1244926cb8491b1eec7879034154c8 [4ms]
+2025-02-12 11:41:29.568 [info] > git show --textconv :app.py [9ms]
+2025-02-12 11:41:29.570 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [3ms]
+2025-02-12 11:41:29.580 [info] > git cat-file -s 9ccb8ae28aabc22ad674151561b4395bc17a172e [2ms]
+2025-02-12 11:58:58.904 [info] > git show --textconv :Dockerfile [8ms]
+2025-02-12 11:58:58.906 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/Dockerfile [2ms]
+2025-02-12 11:58:58.916 [info] > git cat-file -s 03dc5c0d131fc9f0f79b50ff5dab708b3a077313 [3ms]
+2025-02-12 12:00:13.715 [info] > git show --textconv :cloudbuild.yaml [10ms]
+2025-02-12 12:00:13.717 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/cloudbuild.yaml [3ms]
+2025-02-12 12:00:13.729 [info] > git cat-file -s 5dc2cdae4bf7ecd8e67042db6c19d7c5eb695cd4 [2ms]
+2025-02-12 12:07:53.284 [info] > git show --textconv :deployment.yaml [11ms]
+2025-02-12 12:07:53.287 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/deployment.yaml [2ms]
+2025-02-12 12:07:53.299 [info] > git cat-file -s e9426246ad1244926cb8491b1eec7879034154c8 [3ms]
+2025-02-12 12:12:52.765 [info] > git show --textconv :app.py [9ms]
+2025-02-12 12:12:52.766 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 12:12:52.778 [info] > git cat-file -s 9ccb8ae28aabc22ad674151561b4395bc17a172e [2ms]
+2025-02-12 12:13:05.229 [info] > git config --get commit.template [9ms]
+2025-02-12 12:13:05.231 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 12:13:05.250 [info] > git status -z -uall [10ms]
+2025-02-12 12:13:05.251 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-12 12:13:15.143 [info] > git config --get commit.template [9ms]
+2025-02-12 12:13:15.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 12:13:15.163 [info] > git status -z -uall [10ms]
+2025-02-12 12:13:15.165 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 12:13:21.339 [info] > git config --get commit.template [9ms]
+2025-02-12 12:13:21.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-12 12:13:21.364 [info] > git status -z -uall [12ms]
+2025-02-12 12:13:21.364 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 12:13:21.377 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-02-12 12:13:21.387 [info] > git diff --name-status -z --diff-filter=ADMR 1d00554b57d0781978b0b3c5112d106576ce9a16...refs/remotes/origin/main [2ms]
+2025-02-12 12:13:21.507 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 12:13:21.516 [info] > git cat-file -s b5723bb9fb9dda24d8ddaa6e12ed738049d08fcb [2ms]
+2025-02-12 12:13:21.603 [info] > git show --textconv :app.py [3ms]
+2025-02-12 12:13:23.365 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/app.py [2ms]
+2025-02-12 12:13:23.376 [info] > git cat-file -s b5723bb9fb9dda24d8ddaa6e12ed738049d08fcb [3ms]
+2025-02-12 12:13:23.462 [info] > git show --textconv :app.py [3ms]
+2025-02-12 12:13:26.397 [info] > git config --get commit.template [11ms]
+2025-02-12 12:13:26.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 12:13:26.417 [info] > git status -z -uall [10ms]
+2025-02-12 12:13:26.419 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-12 12:13:26.432 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-02-12 12:13:26.443 [info] > git diff --name-status -z --diff-filter=ADMR 11de71f320a9d6f4466a91d5c84afa58a7e929b5...refs/remotes/origin/main [2ms]
+2025-02-12 12:26:06.256 [info] > git show --textconv :cloudbuild.yaml [9ms]
+2025-02-12 12:26:06.258 [info] > git ls-files --stage -- /home/rahul_chalwadi03/my-app/dev1/cloudbuild.yaml [4ms]
+2025-02-12 12:26:06.269 [info] > git cat-file -s 5dc2cdae4bf7ecd8e67042db6c19d7c5eb695cd4 [2ms]
+2025-02-12 12:26:32.393 [info] > git config --get commit.template [10ms]
+2025-02-12 12:26:32.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-12 12:26:32.414 [info] > git status -z -uall [10ms]
+2025-02-12 12:26:32.416 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

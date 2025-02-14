@@ -1,0 +1,19 @@
+2025-02-13 15:56:49.555 [info] 
+
+
+
+
+2025-02-13 15:56:49.573 [info] Extension host agent started.
+2025-02-13 15:56:51.795 [info] [127.0.0.1][cbf5da5a][ManagementConnection] New connection established.
+2025-02-13 15:56:51.877 [info] [127.0.0.1][72a4d76e][ExtensionHostConnection] New connection established.
+2025-02-13 15:56:52.607 [info] [127.0.0.1][72a4d76e][ExtensionHostConnection] <1234> Launched Extension Host Process.
+2025-02-13 17:03:19.089 [info] [127.0.0.1][cbf5da5a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-13 17:12:22.528 [info] [127.0.0.1][cbf5da5a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-02-13 17:12:22.529 [info] [127.0.0.1][72a4d76e][ExtensionHostConnection] The client has reconnected.
+2025-02-13 17:12:22.721 [info] [127.0.0.1][cbf5da5a][ManagementConnection] The client has reconnected.
+2025-02-13 17:28:45.895 [info] [127.0.0.1][cbf5da5a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-13 17:28:50.561 [info] [127.0.0.1][a8060a0c][ManagementConnection] New connection established.
+2025-02-13 17:28:50.565 [info] [127.0.0.1][32865720][ExtensionHostConnection] New connection established.
+2025-02-13 17:28:50.569 [info] [127.0.0.1][32865720][ExtensionHostConnection] <5656> Launched Extension Host Process.
+2025-02-13 17:29:32.213 [info] [127.0.0.1][a8060a0c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-13 17:33:50.944 [info] [127.0.0.1][72a4d76e][ExtensionHostConnection] <1234> Extension Host Process exited with code: 0, signal: null.

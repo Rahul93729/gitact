@@ -1,0 +1,58 @@
+[Error - 6:16:08 AM] Error making request: Command failed with exit code 1: gke-gcloud-auth-plugin
+F0210 06:16:08.464868    1502 cred.go:145] print credential failed with error: Failed to retrieve access token:: failure while executing gcloud, with args [config config-helper --format=json]: exit status 1 (err: ERROR: (gcloud.config.config-helper) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+)
+[Error - 6:16:23 AM] Error making request: Command failed with exit code 1: gke-gcloud-auth-plugin
+F0210 06:16:23.386031    1708 cred.go:145] print credential failed with error: Failed to retrieve access token:: failure while executing gcloud, with args [config config-helper --format=json]: exit status 1 (err: ERROR: (gcloud.config.config-helper) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+)
+[Error - 6:16:39 AM] Error making request: Command failed with exit code 1: gke-gcloud-auth-plugin
+F0210 06:16:38.467072    1728 cred.go:145] print credential failed with error: Failed to retrieve access token:: failure while executing gcloud, with args [config config-helper --format=json]: exit status 1 (err: ERROR: (gcloud.config.config-helper) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+)
+[Error - 6:16:39 AM] Error making request: Command failed with exit code 1: gke-gcloud-auth-plugin
+F0210 06:16:39.250272    1746 cred.go:145] print credential failed with error: Failed to retrieve access token:: failure while executing gcloud, with args [config config-helper --format=json]: exit status 1 (err: ERROR: (gcloud.config.config-helper) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+)
+[Error - 6:18:56 AM] Error making request: The user aborted a request.
+[Error - 6:18:56 AM] Error making request: The user aborted a request.
